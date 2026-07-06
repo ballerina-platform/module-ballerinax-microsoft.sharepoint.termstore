@@ -5,12 +5,9 @@ name = "microsoft.sharepoint.termstore"
 version = "@toml.version@"
 license = ["Apache-2.0"]
 authors = ["Ballerina"]
-keywords = [] # TODO: Add keywords
-# icon = "icon.png" # TODO: Add icon
+keywords = ["Area/Storage & File Management", "Vendor/Microsoft", "Name/Microsoft SharePoint Termstore", "SharePoint", "Type/Connector"]
+icon = "icon.png"
 repository = "https://github.com/ballerina-platform/module-ballerinax-microsoft.sharepoint.termstore"
 
 [build-options]
 observabilityIncluded = true
-
-[platform.java21]
-graalvmCompatible = true
